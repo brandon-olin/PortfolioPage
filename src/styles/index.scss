@@ -9,9 +9,5 @@
 // Components
 @import 'header/header.scss';
 @import 'hero/hero.scss';
-
-.content {
-    background-color: $red;
-    width: 100%;
-    height: 400px;
-}
+@import 'about/about.scss';
+@import 'fade-in/fade-in.scss';

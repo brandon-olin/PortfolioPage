@@ -1,0 +1,24 @@
+.about-container {
+    background-color: $white;
+    width: 100%;
+    padding: 75px 150px 75px 150px;
+}
+
+#about-title {
+    color: $dk-blue;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.about-fade-in {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+
+.about-text {
+    color: $dk-blue;
+    font-size: 22px;
+    text-align: justify;
+}

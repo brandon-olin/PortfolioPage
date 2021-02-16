@@ -1,8 +1,9 @@
 #hero-container {
     // background-color: $green;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../../images/code.jfif");
+    background-size: cover;
     padding-top: 10vh;
-    height: 75vh;
+    height: 85vh;
 }
 
 #hero-title {
@@ -11,7 +12,7 @@
 }
 
 #hero-content-container {
-    padding-top: 20vh;
+    padding-top: 25vh;
     display: flex;
     align-items: center;
 }
@@ -49,7 +50,7 @@
   color: $white;
   position: absolute;
   left: 50%;
-  bottom: 15%;
+  bottom: 5%;
 }
 .bounce {
   -moz-animation: bounce 2s infinite;
