@@ -9,3 +9,9 @@
 // Components
 @import 'header/header.scss';
 @import 'hero/hero.scss';
+
+.content {
+    background-color: $red;
+    width: 100%;
+    height: 400px;
+}

@@ -1,8 +1,8 @@
 #hero-container {
-    background-color: $green;
+    // background-color: $green;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../../images/code.jfif");
     padding-top: 10vh;
     height: 75vh;
-    margin-bottom: 100px;
 }
 
 #hero-title {
@@ -10,16 +10,37 @@
     width: 800px;
 }
 
-#hero-text-container {
+#hero-content-container {
     padding-top: 20vh;
+    display: flex;
+    align-items: center;
 }
 
 #hero-buttons {
     margin-top: 5vh;
 }
 
+.hero-button {
+  padding: 8px 22px 8px 22px;
+  background-color: $blue;
+  font-size: 0.9375rem;
+  color: #f6f4f3;
+  border-radius: 4px;
+  border-width: 0;
+}
+
+.hero-button:hover {
+  background-color: $light-blue;
+}
+
 #resume-button {
     margin-right: 25px;
+}
+
+#avatar-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 
 .arrow {
