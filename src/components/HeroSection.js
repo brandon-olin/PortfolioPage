@@ -1,7 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
-import FadeInSection from '../component/FadeInSection';
 import headshot from '../images/headshot.png';
 import Typed from 'react-typed';
 
@@ -25,7 +24,7 @@ const HeroSection = () => {
                         </a>
                     </div>
                 </div>
-                <img src={headshot} id="avatar-image" />
+                <img src={headshot} alt="headshot" id="avatar-image" />
             </div>
             <div className="arrow bounce">
                 <FontAwesomeIcon className="fa fa-arrow-down fa-2x" icon={faArrowDown} />

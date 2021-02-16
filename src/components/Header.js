@@ -9,9 +9,9 @@ const Header = () => {
             <div className="container header">
                 <a id="header-title" href="/">Brandon Olin</a>
                 <nav id="nav-links">
-                    <a className="nav-link" href="">About</a>
-                    <a className="nav-link" href="">Projects</a>
-                    <a className="nav-link" href="">Contact</a>
+                    <a className="nav-link" href="/">About</a>
+                    <a className="nav-link" href="/">Projects</a>
+                    <a className="nav-link" href="/">Contact</a>
                 </nav>
                 <nav id="social-links">
                     <a className="social-icon-link" href="https://twitter.com/BrandonOlin"><FontAwesomeIcon className="social-icon" icon={faTwitterSquare} /></a>
