@@ -1,5 +1,5 @@
 #header-container {
-    background-color: $red;
+    background-color: $green;
     padding-top: 20px;
     padding-bottom: 20px;
     position: fixed;
@@ -17,11 +17,11 @@
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: $red;
+    background-color: $green;
 }
 
 #header-title {
-    color: $black;
+    color: $white;
     text-decoration: none;
     font-family: $font-primary;
     font-size: 32px;
@@ -39,12 +39,12 @@
 
 .nav-link {
     padding: 0;
-    color: $black;
+    color: $white;
     text-decoration: none;
 }
 
 .nav-link:hover {
-    color: $green;
+    color: $red;
 }
 
 #social-links {
@@ -56,10 +56,10 @@
 
 .social-icon {
     font-size: 36px;
-    color: $black;
+    color: $white;
     margin-left: 28px
 }
 
 .social-icon:hover {
-    color: $green;
+    color: $red;
 }
