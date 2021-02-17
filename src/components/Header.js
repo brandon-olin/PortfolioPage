@@ -26,8 +26,8 @@ const Header = () => {
             <div className={header === 'header' ? 'container header' : 'container header-visible'}>
                 <a id="header-title" href="/">Brandon Olin</a>
                 <nav id="nav-links">
-                    <a className="nav-link" href="/">About</a>
-                    <a className="nav-link" href="/">Projects</a>
+                    <a className="nav-link" href="#about">About</a>
+                    <a className="nav-link" href="#projects">Projects</a>
                     <a className="nav-link" href="/">Contact</a>
                 </nav>
                 <nav id="social-links">

@@ -3,7 +3,7 @@ import FadeInSection from '../component/FadeInSection';
 
 const AboutSection = () => {  
     return (
-        <div className="about-container">
+        <div className="about-container" id="about">
             <h1 id="about-title">About Me</h1>
             <div className="about-fade-in">
                 <FadeInSection delay={250}>

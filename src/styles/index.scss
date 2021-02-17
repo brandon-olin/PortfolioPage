@@ -1,5 +1,6 @@
-// Bootstrap
+// External libraries
 @import '../../node_modules/bootstrap/scss/bootstrap';
+@import "react-slideshow-image/dist/styles.css";
 
 // Global variables
 @import 'colors';
@@ -11,3 +12,16 @@
 @import 'hero/hero.scss';
 @import 'about/about.scss';
 @import 'fade-in/fade-in.scss';
+@import 'projects/projects.scss';
+
+html {
+    scroll-behavior: smooth;
+}  
+
+h1, h1, h3, h4, h5, h6, a {
+    font-family: $font-primary;
+}
+
+p {
+    font-family: $font-secondary;
+}
