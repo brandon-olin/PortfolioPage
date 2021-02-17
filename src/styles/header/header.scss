@@ -1,4 +1,15 @@
 #header-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    height: 10vh;
+    transition: background-color 0.6s ease-in-out;
+}
+
+#header-container-visible {
     background-color: $green;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -7,6 +18,7 @@
     left: 0;
     z-index: 999;
     height: 10vh;
+    transition: background-color 0.6s ease-in-out;
 }
 
 .container {
@@ -17,7 +29,13 @@
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: $green;
+    transition: background-color 0.6s ease-in-out;
+}
+
+.header-visible {
+    display: flex;
+    justify-content: space-between;
+    transition: background-color 0.6s ease-in-out;
 }
 
 #header-title {
@@ -25,6 +43,7 @@
     text-decoration: none;
     font-family: $font-primary;
     font-size: 32px;
+    font-weight: 700;
 }
 
 #nav-links {
@@ -44,7 +63,7 @@
 }
 
 .nav-link:hover {
-    color: $red;
+    color: $off-white;
 }
 
 #social-links {
@@ -61,5 +80,5 @@
 }
 
 .social-icon:hover {
-    color: $red;
+    color: $off-white;
 }
