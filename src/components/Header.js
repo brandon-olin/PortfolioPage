@@ -1,12 +1,29 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitterSquare, faGithubSquare, faMedium } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons'
 
 const Header = () => {
+    const [header, setHeader] = useState("header")
+
+    const listenScrollEvent = (event) => {
+      if (window.scrollY <= 70) {
+        return setHeader("header")
+      } else if (window.scrollY > 70) {
+        return setHeader("header-visible")
+      } 
+    }
+    
+    useEffect(() => {
+      window.addEventListener('scroll', listenScrollEvent);
+    
+      return () =>
+        window.removeEventListener('scroll', listenScrollEvent);
+    }, []);
+    
     return (
-        <header id="header-container">
-            <div className="container header">
+        <header id={header === 'header' ? 'header-container' : 'header-container-visible'}>
+            <div className={header === 'header' ? 'container header' : 'container header-visible'}>
                 <a id="header-title" href="/">Brandon Olin</a>
                 <nav id="nav-links">
                     <a className="nav-link" href="/">About</a>
