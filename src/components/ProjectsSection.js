@@ -32,7 +32,7 @@ const ProjectsSection = () => {
                             <p className="project-text">Designed the data structure, implemented QR code creation and scanning functionality, as well as hot reloading with asynchronous data reading and writing.</p>
                         </FadeInSection>
                         <FadeInSection delay={2000}>
-                            <p className="project-text">Collaborated with UX designer to plan out the structure of the app, optimizing for ease of use,then implemented the design with a combination of CSS and a UI components library.</p>
+                            <p className="project-text">Collaborated with UX designer to plan out the structure of the app, optimizing for ease of use, then implemented the design with a combination of CSS and a UI components library.</p>
                         </FadeInSection>
                     </div>
                 </FadeInSection>
