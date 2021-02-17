@@ -26,9 +26,9 @@ const HeroSection = () => {
                 </div>
                 <img src={headshot} alt="headshot" id="avatar-image" />
             </div>
-            <div className="arrow bounce">
-                <FontAwesomeIcon className="fa fa-arrow-down fa-2x" icon={faArrowDown} />
-            </div>
+            <a className="arrow bounce" href="#about">
+                <FontAwesomeIcon className="fa fa-arrow-down fa-3x" icon={faArrowDown} />
+            </a>
         </div>
     )
 }

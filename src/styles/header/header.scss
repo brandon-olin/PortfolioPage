@@ -47,10 +47,9 @@
 }
 
 #nav-links {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-    text-align: center;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
     margin-top: auto;
     margin-bottom: auto;
     font-size: 24px;
@@ -71,14 +70,4 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: auto;
     margin-bottom: auto;
-}
-
-.social-icon {
-    font-size: 36px;
-    color: $white;
-    margin-left: 28px
-}
-
-.social-icon:hover {
-    color: $off-white;
 }
