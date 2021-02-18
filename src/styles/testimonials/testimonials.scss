@@ -1,8 +1,8 @@
 .testimonials-container {
     background-color: $white;
     width: 100%;
-    padding: 15vh 150px 150px;
-    height: 100vh;
+    padding: 15vh 150px 10vh 150px;
+    min-height: 100vh;
 }
 
 #testimonials-title {

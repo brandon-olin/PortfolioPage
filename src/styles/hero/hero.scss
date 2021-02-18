@@ -2,13 +2,13 @@
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../../images/code.jfif");
     background-size: cover;
     padding-top: 10vh;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 #hero-title {
     color: $white;
     width: 800px;
-    height: 103px;
+    height: 105px;
 }
 
 #hero-content-container {

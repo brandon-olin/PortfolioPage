@@ -37,7 +37,7 @@ const ProjectsSection = () => {
                     </div>
                 </FadeInSection>
                 <div className="slide-container">
-                    <FadeInSection delay={3000}>
+                    <FadeInSection delay={2500} threshold={0.7}>
                         <Slide {...properties}>
                             <div className="each-slide">
                                 <img src={landingpage} alt="landingpage" className="scrapit-slide" />
