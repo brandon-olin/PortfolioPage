@@ -1,15 +1,14 @@
 import React, { useState, useRef, useEffect } from 'react';
 
 const FadeInSection = ({ delay, children, threshold = 0 }) => {
-  const [isVisible, setVisible] = useState(true);
+  const [isVisible, setVisible] = useState(false);
   const domRef = useRef();
 
+  const observer = new IntersectionObserver(([entry]) => {
+    setTimeout(() => setVisible(entry.isIntersecting), delay)
+  }, { threshold });
+
   useEffect(() => {
-    const observer = new IntersectionObserver(entries => {
-      setTimeout(() => {
-        entries.forEach(entry => setVisible(entry.isIntersecting));
-      }, delay)
-    }, { threshold });
     observer.observe(domRef.current);
     return () => observer.unobserve(domRef.current);
   }, []);
