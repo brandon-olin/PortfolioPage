@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
 import headshot from '../images/headshot.png';
 import Typed from 'react-typed';
+import FadeInSection from '../component/FadeInSection';
 
 const HeroSection = () => {
   return (
@@ -15,16 +16,20 @@ const HeroSection = () => {
               typeSpeed={40}
             />
           </h1>
-          <div id="hero-buttons">
-            <a href="https://standardresume.co/r/_60ykSHwQVH_SwAZ0PTbo" id="resume-button">
-              <button className="hero-button">RESUME</button>
-            </a>
-            <a href="mailto:dev@brandonolin.com" id="resume-button">
-              <button className="hero-button">CONTACT ME</button>
-            </a>
-          </div>
+          <FadeInSection delay={5500}>
+            <div id="hero-buttons">
+              <a href="https://standardresume.co/r/_60ykSHwQVH_SwAZ0PTbo" id="resume-button">
+                <button className="hero-button">RESUME</button>
+              </a>
+              <a href="#contact" id="resume-button">
+                <button className="hero-button">CONTACT ME</button>
+              </a>
+            </div>
+          </FadeInSection>
         </div>
-        <img src={headshot} alt="headshot" id="avatar-image" />
+        <FadeInSection delay={1400}>
+          <img src={headshot} alt="headshot" id="avatar-image" />
+        </FadeInSection>
       </div>
       <a className="arrow bounce" href="#about">
         <FontAwesomeIcon className="fa fa-arrow-down fa-3x" icon={faArrowDown} />
