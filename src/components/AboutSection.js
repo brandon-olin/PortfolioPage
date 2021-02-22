@@ -1,5 +1,5 @@
 import React from 'react';
-import FadeInSection from '../component/FadeInSection';
+import FadeInSection from './FadeInSection';
 
 const AboutSection = () => {  
   return (
@@ -14,14 +14,14 @@ const AboutSection = () => {
         </FadeInSection>
         <FadeInSection delay={750}>
           <div>
-            <p className="about-text">Now that I’ve finished the Le Wagon coding bootcamp and Zero-to-Mastery JavaScript course, I’m transitioning to programming as my full-time profession. I’m looking for positions anywhere in the U.S where I can make that happen!</p>
-            <p className="about-text">Now that I’ve finished the Le Wagon coding bootcamp and Zero-to-Mastery JavaScript course, I’m transitioning to programming as my full-time profession. I’m looking for positions anywhere in the U.S where I can make that happen!</p>
+            <p className="about-text">My travels ended in early 2020 with a 9 week full-stack coding bootcamp at Le Wagon in Bali where I learned Ruby on Rails, HTML, CSS, And JavaSCript. This was followed by a mad dash back to the U.S. in early April in response to the covid pandemic.</p>
+            <p className="about-text">From there I shifted my focus to React and JavaScript as my languages of choice, completing a number of Udemy courses around React and Node.js, building a number of smaller projects in those languages along the way.</p>
           </div>
         </FadeInSection>
         <FadeInSection delay={1250}>
           <div>
-            <p className="about-text">Now that I’ve finished the Le Wagon coding bootcamp and Zero-to-Mastery JavaScript course, I’m transitioning to programming as my full-time profession. I’m looking for positions anywhere in the U.S where I can make that happen!</p>
-            <p className="about-text">Now that I’ve finished the Le Wagon coding bootcamp and Zero-to-Mastery JavaScript course, I’m transitioning to programming as my full-time profession. I’m looking for positions anywhere in the U.S where I can make that happen!</p>
+            <p className="about-text">In August of 2020 I took on the role of tech lead for ScrapIt, a compost pickup and rewards app that's been approved as part of the MIT Sandbox Innovation Fund, and will be piloting at two of their graduate dorms in the spring 2021 semester.</p>
+            <p className="about-text">From here I'm continuing to build out features and functionality for ScrapIt, while I look for a full-time programming position. I'm open to both remote opportunities, and ones based in the greater Denver area!</p>
           </div>
         </FadeInSection>
       </div>

@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
 import alex from '../images/alex.jfif';
 import elad from '../images/elad.jfif';
-import FadeInSection from '../component/FadeInSection';
+import FadeInSection from './FadeInSection';
 
 const TestimonialsSection = () => {
-  const [visible, setVisible] = useState(false);
-
   return (
     <div className="testimonials-container" id="testimonials">
       <h1 id="testimonials-title">Testimonials</h1>

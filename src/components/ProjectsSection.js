@@ -1,6 +1,6 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
-import FadeInSection from '../component/FadeInSection';
+import FadeInSection from './FadeInSection';
 import landingpage from '../images/ScrapIt/landingpage.jpg';
 import rewards from '../images/ScrapIt/rewards.jpg';
 import success from '../images/ScrapIt/success.png';
