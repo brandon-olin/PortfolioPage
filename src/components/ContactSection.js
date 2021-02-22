@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitterSquare, faGithubSquare, faMedium, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelopeSquare, faFileAlt } from '@fortawesome/free-solid-svg-icons'
-import FadeInSection from '../component/FadeInSection';
+import FadeInSection from './FadeInSection';
 
 const ContactSection = () => {  
   return (
