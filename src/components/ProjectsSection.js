@@ -19,6 +19,8 @@ const ProjectsSection = () => {
     indicators: true  
   }
 
+  const sustainableLink = <a href="https://www.youtube.com/watch?t=615&v=JPPcDFA7_cM&feature=youtu.be&ab_channel=LeWagon">Click here to view the final presentation.</a>
+
   return (
     <div className="projects-container" id="projects">
       <h1 id="projects-title">Projects</h1>
@@ -71,7 +73,10 @@ const ProjectsSection = () => {
               <p className="project-text">Built in a two week sprint as the final project of the Le Wagon coding bootcamp. </p>
             </FadeInSection>
             <FadeInSection delay={2000}>
-              <p className="project-text">Collaborated with UX designer to plan out the structure of the app, optimizing for ease of use, then implemented the design with a combination of CSS and a UI components library.</p>
+              <p className="project-text">Presented the application along with our team lead on the "demo day", the final day of our bootcamp.</p>
+            </FadeInSection>
+            <FadeInSection delay={2000}>
+              <p className="project-text">{sustainableLink}</p>
             </FadeInSection>
           </div>
         </FadeInSection>
